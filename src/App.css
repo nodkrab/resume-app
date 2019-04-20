@@ -1,5 +1,6 @@
-.App {
+/* .App {
   text-align: center;
+  display: block;
 }
 
 .App-logo {
@@ -17,16 +18,126 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+
+ul {
+  list-style: none;
+}
+
+h1,
+h4 {
+  color: palevioletred;
+}
+.name {
+  line-height: 0.8;
+}
+.imgProfile {
+  width: 120px;
+  background-color: #fff;
+  border-radius: 50%;
 }
 
 .App-link {
   color: #61dafb;
 }
 
+.app-resume {
+  padding: 5%;
+  background-color: #000;
+  /* display: flex;
+  flex-flow: row;
+  justify-content: center; */
+}
+
+.app-resume .boy {
+  height: 80px;
+}
+
+.app-resume div {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+.profile {
+  display: flex;
+  flex-flow: row;
+}
+
+.profile .col-left {
+  padding: 0 5%;
+  text-align: left;
+}
+
+.skill span {
+  min-width: 50px;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.profile .col-right {
+  padding: 0 5%;
+  background-color: #7b7b7b;
+  text-align: left;
+}
+
+.col-right span {
+  margin: 2% 0;
+  display: inline-block;
+}
+
+.app-star {
+  animation: App-logo-spin infinite 20s linear;
+  height: 20px;
+  pointer-events: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.padding-5x {
+  padding: 0 5%;
+}
+
+.bgPink {
+  display: table;
+  padding: 5px 10px;
+  background-color: palevioletred;
+}
+
+.fa-star,
+.fa-star-half-alt {
+  color: rgb(187, 178, 75);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid palevioletred;
+  position: relative;
+  margin-bottom: 40px;
+}
+hr:before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 5px;
+  background: palevioletred;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 992px) {
+  hr:before {
+    width: 40%;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
